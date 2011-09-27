@@ -8,6 +8,7 @@ let main () =
         | num -> (Str.regexp Sys.argv.(num))::(get_regexes (num-1))
     in
     let file = open_out Sys.argv.(1) in
+    at_exit (fun () -> close_out file);
     let regs = get_regexes ((Array.length Sys.argv) - 1) in
     while true do
         try
