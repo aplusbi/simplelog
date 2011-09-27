@@ -1,0 +1,4 @@
+simplelog is a command line logging tool.  It reads from STDIN and prints
+everything it reads to STDOUT. It will also print to a log file.  Optional
+regexps can be supplied which will cause simplelog to only log lines that
+match one of those regexps.
