@@ -1,0 +1,7 @@
+# OASIS_START
+# DO NOT EDIT (digest: 879f51addfb783a77975474ef74bae5c)
+# Executable simplelog
+<simplelog.{native,byte}>: pkg_str
+<*.ml{,i}>: pkg_str
+<simplelog.{native,byte}>: custom
+# OASIS_STOP
